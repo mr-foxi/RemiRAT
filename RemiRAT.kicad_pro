@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.4,
-          "width": 0.46
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -54,47 +54,15 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "unconnected_items|127000000|100680000|011fd061-d48b-4828-ab9c-9017a41944ec|d79b70ef-6de8-493c-b255-5726e68c3ec7",
-          ""
-        ],
-        [
           "unconnected_items|127600000|110775000|5bf9817d-4392-4fc6-b68e-a09b4c59f168|6d254da6-a0bb-4b21-b9a3-155be1532c6d",
           ""
         ],
         [
-          "unconnected_items|129500000|110775000|56d165f7-1b68-412d-9cbb-99070ed13fe0|35a90f8e-e259-4749-ab05-87754d4c2d6d",
+          "unconnected_items|156050000|82820000|ad9cf4ae-2f5c-4002-ab3f-8ef8ed427e34|b5d2c1ff-c648-47c5-ba6f-6d367c21e9a1",
           ""
         ],
         [
-          "unconnected_items|130680000|105000000|f7009512-83e6-41a5-b434-851f66281129|03601673-8328-42b3-a9ba-ec587d4473fa",
-          ""
-        ],
-        [
-          "unconnected_items|136072500|110500000|5209f7ca-c27f-4888-ae7f-356eeea69719|6602ec37-fb16-4b71-8ea1-137cab0f33ba",
-          ""
-        ],
-        [
-          "unconnected_items|154820000|75500000|341d4de6-deb9-47db-bfeb-24de2a865050|ad9cf4ae-2f5c-4002-ab3f-8ef8ed427e34",
-          ""
-        ],
-        [
-          "unconnected_items|154820000|85000000|a9c9047b-b20f-4f42-852c-8e71d2eb2426|c1cf77d3-d91d-46ad-8ad1-ebf857ecd5a4",
-          ""
-        ],
-        [
-          "unconnected_items|156362500|78450000|ad23e2f7-3064-4126-a2e7-8c16f55c0cf5|8638fa18-befa-4415-9b83-e9981c6c15c5",
-          ""
-        ],
-        [
-          "unconnected_items|158637500|82900000|e3a2d8cd-3d63-4d66-972e-52ce40b01263|98047e78-36cf-405f-82e3-e23d20cbe8cf",
-          ""
-        ],
-        [
-          "unconnected_items|161000000|79510000|2e746216-c4d4-411e-b5a2-e680df25ceca|6b65d047-2636-4db4-a650-7898b1d17125",
-          ""
-        ],
-        [
-          "unconnected_items|161010000|83000000|ac5c83ff-b6cd-40cc-b609-1ca415d9d9ca|4764a065-4d7d-4077-866f-d284acbfda89",
+          "unconnected_items|160050000|75990000|d0cda562-28a7-4161-9fc3-ebdc95475466|663d9e87-3aeb-40a1-8954-57abf52c02c0",
           ""
         ]
       ],
@@ -531,8 +499,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "doc/",
-      "pos_files": "PROD202507121337/",
+      "plot": "PROD202507121958/docs/",
+      "pos_files": "PROD202507121958/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

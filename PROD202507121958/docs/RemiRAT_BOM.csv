@@ -1,0 +1,40 @@
+Id,Designator,Footprint,Quantity,Designation,Manufacturer,Manufacturer Part Number,Notes
+1,C11,CP_Radial_D10.0mm_P5.00mm,1,"Capacitor, Aluminum Electrolytic, 220uF 50V",Rubycon,50PZJ220M10X15,Input Power Filtering/Bulk Capacitor
+2,"R14,R13,R11,R9",R_0402_1005Metric,4,"Resistor, 4.7 kOhm",Yageo,RC0402FR-074K7L,Pull-up/down for SAM or ESP
+3,F1,Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,"Fuse, 1.5A 32V Slow Blow",Littelfuse,043501.5KRHF,Overcurrent Protection
+4,"C7,C6",C_0201_0603Metric,2,"Capacitor, Ceramic, 10 pF",Murata,QLCD250Q100J1GV001T,Crystal Load Capacitors
+5,"S3,S1",SW_PTS_647_SN50_SMTR2_LFS,2,"Tactile Switch, SPST-NO SMD",C&K Components,PTS647SN50SMTR2LFS,Reset/Erase Buttons
+6,"Q2,Q1",SOT-23-3,2,NPN Transistor,Anbon,BC847B,RX/TX LED Transistor
+7,"R4,R3",R_0201_0603Metric,2,"Resistor, 39 Ohm",Yageo,RC0201FR-1339RL,USB D+/D- Termination
+8,"R5,R8",R_0402_1005Metric,2,"Resistor, 10 kOhm",Yageo,RC0402FR-0710KL,Pull-up/down for control lines
+9,"C21,C18,C19,C15,C1,C20,C17",C_0402_1005Metric,7,"Capacitor, Ceramic, 0.1uF 25V",Samsung Electro-Mechanics,CL05B104KA5NNNC,Local Decoupling
+10,C8,C_1206_3216Metric,1,"Capacitor, Ceramic, 22uF 25V",Samsung Electro-Mechanics,CL31A226KAHNNNE,Bulk Decoupling/Output Cap for ESP32
+11,U1,QFP50P2200X2200X145-144N,1,"Microcontroller, ATSAM3X8EA-AU",Microchip,ATSAM3X8EA-AU,Main Microcontroller
+12,C5,C_0201_0603Metric,1,"Capacitor, Ceramic, 18pF 25V",Murata,GRM0335C1E180JA01D,Crystal Load Capacitor
+13,"LD1,LD2",LED_0603_1608Metric,2,"LED, Green 0603",Kingbright,APT1608CGCK,Serial Data RX/TX LEDs (ESP/SAM)
+14,J4,microSD_HC_Hirose_DM3AT-SF-PEJM5,1,MicroSD Card Receptacle,Hirose,DM3AT-SF-PEJM5,MicroSD Slot
+15,VR1,SOT-223,1,"LDO Regulator, 3.3V 1.5A",STMicroelectronics,TL1963A-33DCYR,Main 3.3V Power Supply
+16,"C10,C14",C_0402_1005Metric,2,"Capacitor, Ceramic, 1uF 25V",Samsung Electro-Mechanics,CL05A105KA5NQNC,Local Decoupling
+17,F3,Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,"Fuse, 2A 32V Slow Blow",Bourns Inc.,SF-0603SP200-2,Wire Input Power Fuse
+18,"C3,C9",C_0402_1005Metric,2,"Capacitor, Ceramic, 0.1uF 25V",Samsung Electro-Mechanics,CL05B104KA5NNNC,Local Decoupling
+19,C13,C_1206_3216Metric,1,"Capacitor, Ceramic, 47uF 25V",TDK Corporation,C3216X5R1E476M160AC,Bulk Decoupling/Filtering
+20,J11,PinHeader_1x03_P2.54mm_Vertical,1,"Header, 1x03 Pin 2.54mm Vertical",Würth Elektronik,61300311121,General Purpose Header
+21,Y1,XTAL_405C35B12M00000,1,"Crystal, 12MHz 13pF 60 Ohms",CTS-Frequency Controls,405C35B12M00000,Main SAM MCU Crystal
+22,"J3,J6",PinHeader_1x06_P2.54mm_Vertical,2,"Header, 1x06 Pin 2.54mm Vertical",Würth Elektronik,61300611121,Serial Flashing Headers
+23,J9,PinHeader_2x04_P2.54mm_Vertical,1,"Header, 2x04 Pin 2.54mm Vertical",Samtec Inc.,TSW-104-07-F-D,ESP Breakout Header
+24,J10,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,1,"Terminal Block, 1x02 Pin 2.54mm Horizontal",TE Connectivity AMP Connectors,1546215-2,External Power Input
+25,"R1,R2",R_0201_0603Metric,2,"Resistor, 5.1 kOhm",Yageo,RC0201FR-075K1L,USB D+/D- Pull-ups
+26,J7,PinHeader_1x04_P2.54mm_Vertical,1,"Header, 1x04 Pin 2.54mm Vertical",Würth Elektronik,61300411121,Test Points / I2C Header
+27,"R10,R12",R_0201_0603Metric,2,"Resistor, 200 Ohm",Vishay Dale,CRCW0201200RFKED,LED Current Limiting
+28,"C2,C16",C_0805_2012Metric,2,"Capacitor, Ceramic, 10uF 25V",Samsung Electro-Mechanics,CL21A106KAYNNNE,Input/Output Decoupling
+29,J1,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,"USB-C Receptacle, Horizontal",GCT,USB4105-GF-A,USB Connector
+30,"J2,J5",PinHeader_2x05_P1.27mm_Vertical_SMD,2,"Header, 2x05 Pin 1.27mm Vertical SMD",CNC Tech,3220-10-0300-00,SWD/JTAG Headers
+31,S2,SW_219-4MST,1,"DIP Switch, 4-Position SPST",CTS Electrocomponents,219-4MST,ESP32 Boot Mode Select
+32,U2,ESP32-32UE_EXP,1,"Wi-Fi/BT Module, ESP32-WROOM-32UE",Espressif Systems,ESP32-WROOM-32UE-N16,Wi-Fi/Bluetooth Module
+33,VR2,CONV_TSR_2-2450,1,"DC-DC Converter, 5V Output",Traco Power,TSR 2-2450,External Power Input Voltage Regulator
+34,C4,C_0201_0603Metric,1,"Capacitor, Ceramic, 18pF 25V",Murata,GRM0335C1E180JA01D,Crystal Load Capacitor
+35,J8,PinHeader_2x06_P2.54mm_Vertical,1,"Header, 2x06 Pin 2.54mm Vertical",TE Connectivity AMP Connectors,87227-6,Generic Expansion Header
+36,C12,C_0805_2012Metric,1,"Capacitor, Ceramic, 1uF 50V",Samsung Electro-Mechanics,CL21B105KBFNNNE,Decoupling/Filtering
+37,"F2, F4",Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder,1,"Fuse, 1.5A 32V Fast Blow",Littelfuse,043501.5KRHF,Overcurrent Protection
+38,Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,1,"Crystal, 32.768kHz 7pF",Seiko Instruments,SC32S-7PF20PPM,RTC Crystal for SAM
+39,U3,SOT-23-6,1,USB ESD Protection IC,STMicroelectronics,USBLC6-2,USB Data Line ESD Protection
